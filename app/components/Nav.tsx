@@ -1,11 +1,11 @@
 import styles from './Nav.module.css'
-
+import Image from 'next/image'
 export function Nav() {
     return (
         <header className={styles.header}>
             <nav className="navbar navbar-expand-lg navbar-light  fixed-top bg-clear">
                 <div className="container-fluid">
-                    <img src="WALLADA FILMS8_icon.jpg" alt="" width="150"  className="d-inline-block align-text-top" />
+                    <Image src="/WALLADA FILMS8_icon.jpg" alt="" width="150" height='85'  className="d-inline-block align-text-top" ></Image>
 
                     <a className="navbar-brand" href="#">Wallada Films</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

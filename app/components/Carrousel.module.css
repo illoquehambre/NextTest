@@ -1,0 +1,14 @@
+.carousel_image_container {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  

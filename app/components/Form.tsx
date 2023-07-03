@@ -23,7 +23,7 @@ export function Form() {
         </div>
         
         <div className="col-12 d-flex justify-content-center">
-          <button type="submit" className="btn btn-primary">Sign in</button>
+          <button type="submit" className="btn btn-primary">Send Email</button>
         </div>
       </form>
     </div>
